@@ -1,0 +1,17 @@
+{
+  "name": "node-babel-es2017-init",
+  "version": "0.0.1",
+  "scripts": {
+    "install": "npm run build",
+    "babel": "babel ./src/ --out-dir out",
+    "build": "npm run babel",
+    "dev": "babel-node ./src/main.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
