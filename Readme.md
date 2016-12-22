@@ -1,4 +1,4 @@
-# node-babel-init
+# node-babel-es2017-init
 ## What's that?
 This is my personal "starting point" for any project that uses `ES2017`, I had to redo it too many times so I decided to have one.
 
